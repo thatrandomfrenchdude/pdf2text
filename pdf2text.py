@@ -18,6 +18,7 @@ def pdf_to_text(input_file, output_file):
     with open(output_file, 'w') as f:
         f.write(text)
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Convert PDF to raw text')
     parser.add_argument('-i', '--input', help='Input PDF filename', required=True)
