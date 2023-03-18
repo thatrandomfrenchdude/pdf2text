@@ -4,7 +4,7 @@ import PyPDF2
 # calling template
 # python <script_name>.py -i <input filename> -o <output filename>
 # calling example
-# python pdf_to_text.py -i input.pdf -o output.txt
+# python pdf2text.py -i input.pdf -o output.txt
 
 
 def pdf_to_text(input_file, output_file):
